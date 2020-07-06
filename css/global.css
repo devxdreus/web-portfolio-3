@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+  --primary-color: #f5cf14;
+  --secondary-color: #e0ac00;
+  --shadow-color: 0 10px 30px rgba(118, 85, 225, .3);
+  --box-shadow: 0 10px 30px rgba(57, 56, 61, .205);
+
+  /* font family */
+  --roboto: 'Roboto', cursive;
+  --modak: 'Modak', cursive;;
+}
+
+body {
+  font-family: var(--roboto)
+}
+
+.btn {
+  font-weight: 500 !important;
+}
+
+.button-kuning {
+  background-color: #f5cf14;
+}
+
+.button-kuning:hover {
+  background-color: #e0ac00;
+}

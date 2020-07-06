@@ -1,0 +1,72 @@
+@import url(./global.css);
+
+/* header */
+
+.header .navbar {
+  background-color: #f5cf14;
+  font-weight: 500;
+}
+
+.header .navbar-brand {
+  font-family: 'Modak', cursive;
+  font-size: 2.5em;
+  line-height: 1.2em;
+}
+
+/* end header */
+
+/* banner */
+
+.banner {
+  background: url(../img/backgorund-1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+  bottom: 0;
+}
+
+.banner .container {
+  position: relative;
+  z-index: 1;
+}
+
+.banner button {
+  z-index: 9;
+  font-size: 21px;
+  font-weight: 700 !important;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 72px;
+  font-style: italic;
+}
+
+.banner p {
+  color: #eee;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.banner .brand-img img {
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  border-radius: .2rem;
+}
+
+.banner .brand-img span {
+  color: #dbdbdb;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+/* end banner */
