@@ -20,9 +20,9 @@ body {
 }
 
 .button-kuning {
-  background-color: #f5cf14;
+  background-color: var(--primary-color);
 }
 
 .button-kuning:hover {
-  background-color: #e0ac00;
+  background-color: var(--secondary-color);
 }
